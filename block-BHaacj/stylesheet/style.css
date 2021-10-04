@@ -1,0 +1,313 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom*/
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header{
+  padding: 20px 100px;
+  
+}
+.logo{
+  height: 35px;
+}
+.journey{
+  font-size: 25px;
+  font-weight: 700;
+  vertical-align: top;
+}
+.nav{
+  font-size: 10px;
+}
+.nav li{
+  margin-left: 40px;
+  font-weight: 700;
+}
+.home{
+  color: #50CCB9;
+}
+
+/*main*/
+.flex_50{
+  flex: 0 1 50%;
+}
+main{
+  background-color: #E5E5E5;
+}
+.bg-img{
+  background-image: url(../assets/banner.jpg);
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding-top: 70px;
+}
+h1{
+  font-size: 35px;
+}
+.tick-down{
+  color: #50CCB9;
+  font-size: 30px;
+}
+.hero-box{
+  height: 150px;
+  width: 600px;
+  background-color: #F5F5F5;
+  padding: 20px;
+  margin: 60px auto;
+
+}
+.row-1{
+  color: black;
+  font-size: 10px;
+  font-weight: 700;
+  
+}
+.row-2{
+  color: gray;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.row-2 a{
+  color: gray;
+  font-size: 10px;
+}
+.half{
+  width: 35%;
+  margin-top: 20px;
+}
+.check-in{
+  margin-left: 10px;
+  margin-top: -10px;
+}
+.check-out{
+  margin-right: 20px;
+  margin-top: -10px;
+}
+.check{
+  background-color: #50CCB9;
+  font-size: 10px;
+  padding: 8px;
+  width: 250px;
+  margin-left: 280px;
+  margin-top: -30px;
+}
+.bg-color{
+  background-color: #EEEEEF;
+  height: 180px;
+  text-align: center;
+  padding: 20px 200px;
+}
+.continue{
+  background-color: #50CCB9;
+  font-size: 10px;
+  padding: 8px;
+  width: 120px;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
+}
+.your-journey{
+  font-size: 20px;
+}
+b{
+  font-weight: 900;
+}
+.para{
+  color: gray;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.bg-white{
+  background-color: white;
+  width: 100%;
+}
+.img-1{ 
+  width: 100%;
+}
+.europe-bg{
+  background-color: #50CCB9;
+  padding: 30px;
+  color: white;
+  position: relative;
+  right: 32px;
+}
+.europe{
+  font-size: 25px;
+}
+.europe-para{
+  font-size: 10px;
+}
+.reading{
+  background-color: white;
+  padding: 8px;
+  color: #50CCB9;
+  font-size: 10px;
+  width: 130px;
+  margin-top: 10px;
+}
+.asia{
+  background-color: #D05194;
+  left: 32px;
+}
+.two{
+  color: #D05194;
+}
+.north-america-map{
+  background-color: #50CCB9;
+}
+.north{
+  font-size: 10px;
+  color: white;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.asia-bg{
+  background-color: #D05194;
+}
+.map-img{
+  margin-top: 20px;
+}
+.bg{
+  background-color: #50CCB9;
+}
+.container-2{
+  padding: 20px 150px;
+}
+.flex-25{
+  flex: 0 1 20%;
+}
+.flex-45{
+  flex: 0 1 50%;
+  padding: 30px;
+}
+.resort{
+  font-size: 18px;
+  font-weight: 700;
+}
+.singapore{
+  font-size: 10px;
+  color: #D05194;
+}
+.asia-para{
+  font-size: 10px;
+  color: grey;
+}
+.flex-10{
+  flex: 0 1 10%;
+}
+.flex-20{
+  flex: 0 1 20%;
+}
+.google-map{
+  position: relative;
+}
+.form-map{
+  background-color: white;
+  width: 350px;
+  height: 300px;
+  position: absolute;
+  top: 10%;
+  left: 60%;
+}
+
+.footer{
+  background-color: #50CCB9;
+  padding: 25px;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+.bg-clr{
+  background-color: #E5E5E5;
+}
+.name{
+  padding: 8px;
+  width: 150px;
+  margin: 10px;
+  color: #F5F5F5;
+}
+.subject{
+  width: 330px;
+  color: #F5F5F5;
+}
+.message{
+  height: 120px;
+  color: #F5F5F5;
+}
+.send{
+  background-color: turquoise;
+  width: 330px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  text-transform: uppercase;
+}
